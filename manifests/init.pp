@@ -51,6 +51,10 @@ class pam(
     ensure => $ensure
   }
 
+  package { $pam::params::package_pam_ldap:
+    ensure => $ensure
+  }
+
   file { $pam::params::prefix_pamd:
     ensure => present,
     owner  => $pam::params::owner,
