@@ -1,5 +1,6 @@
 2014-06-04 - Version 0.0.10
  * Fixed bug on rhel 6 (and derivatives). Package declaration was missing.
+ * Added .travis.yml for checking build status
 
 2013-07-18 - Version 0.0.9
  * Moved to $::osfamily
@@ -51,4 +52,3 @@
 
 2013-03-20 - version 0.0.1
  * Initial commit
-
